@@ -7,10 +7,10 @@ var
     sock = newSocket()
 
 proc run(TARGET: string, RPORT: int): void =
-    echo "hi"
+    
     
     when system.hostOS == "macosx":
-        echo "running on Mac OS X!"
+        echo "running on Windows!"
 
 
         try:
